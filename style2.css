@@ -1,0 +1,49 @@
+body{.nav{
+     display: flex;
+     background-color: aqua;
+     justify-content: space-around;
+}
+.nav .logo{
+     width: 30%;
+     text-align: center;
+}
+.nav .logo img{
+     width: 100%;
+}
+.nav .list{
+     width: 80%;
+}
+.nav .list ul{
+     list-style: none;
+     display: flex;
+     justify-content: end;
+}
+.nav .list ul li{
+     padding: 0px 30px;
+    
+}
+     margin: 0;
+     padding: 0;
+}
+
+.nav .list ul li:hover a{
+     color: rgb(0, 0, 0);
+}
+.nav .list ul li a{
+     text-decoration: none;
+     color: aliceblue;
+     font-size: 20px;
+}
+@media (max-width:992px){
+     .nav{
+          display: flex;
+          background-color: aqua;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-content: space-between;
+     }
+     .nav .logo{
+          width: 100%;
+     }
+
+}
